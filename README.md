@@ -3,8 +3,17 @@ deep-equal-with-difflet
 
 deepEqual using [difflet](https://github.com/substack/difflet) to show the diff.
 
-usage:
+install
+=======
 
+With [npm](http://npmjs.org) do:
+
+```
+npm install deep-equal-with-difflet
+```
+
+usage
+=====
 ``` js
 var assert = require('assert');
 assert.deepEqualWithDifflet = require('deep-equal-with-difflet');
@@ -15,17 +24,8 @@ var a = { a: 1, b: 2 },
 assert.deepEqualWithDifflet(a, b);
 ```
 
-install
-=======
-
-With [npm](http://npmjs.org) do:
-
-```
-npm install deep-equal-with-difflet
-```
-
 examples
-====
+========
 just node:
 ```
 node example/example.js
