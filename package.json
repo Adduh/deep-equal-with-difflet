@@ -1,6 +1,6 @@
 {
   "name": "deep-equal-with-difflet",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "deep equal using difflet to show the diff",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,8 @@
     "example": "example"
   },
   "dependencies" : {
-    "difflet": "~0.2.6"
+    "difflet": "~0.2.6",
+    "deep-is": "~0.1.2"
   },
   "repository": {
     "type": "git",
